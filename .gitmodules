@@ -1,0 +1,3 @@
+[submodule "pronote-api"]
+	path = pronote-api
+	url = https://github.com/galitan-dev/pronote-api
