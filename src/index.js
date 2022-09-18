@@ -1,7 +1,7 @@
-const pronote = require("pronote");
+const pronote = require('pronote');
 
 try {
-   console.log(pronote.casList)
+	console.log(pronote.casList);
 } catch (err) {
-    console.error(err);
+	console.error(err);
 }

@@ -7,9 +7,12 @@
   "scripts": {
     "postinstall": "yarn --cwd pronote-api",
     "start": "node -r module-alias/register src/index.js",
-    "dev": "nodemon -r module-alias/register"
+    "dev": "nodemon -r module-alias/register",
+    "check": "eslint",
+    "lint": "eslint --fix"
   },
   "devDependencies": {
+    "eslint": "^8.23.1",
     "nodemon": "^2.0.20"
   },
   "dependencies": {
