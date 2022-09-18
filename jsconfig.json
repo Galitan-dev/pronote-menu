@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "pronote": ["pronote-api/index.js"]
+    }
+  }
+}

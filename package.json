@@ -5,10 +5,17 @@
   "author": "Galitan-dev",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon"
+    "postinstall": "yarn --cwd pronote-api",
+    "start": "node -r module-alias/register src/index.js",
+    "dev": "nodemon -r module-alias/register"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "pronote": "pronote-api/index.js"
   }
 }
